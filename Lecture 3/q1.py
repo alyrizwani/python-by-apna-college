@@ -1,10 +1,8 @@
+#Program to ask user to enter their 3 favourite movies and store them in a list
 list = []
-movie1 = input("Enter your 1st favourite movie: ")
-movie2 = input("Enter your 2nd favourite movie: ")
-movie3 = input("Enter your 3rd favourite movie: ")
 
-list.append(movie1)
-list.append(movie2)
-list.append(movie3)
+list.append( input("Enter your 1st favourite movie: "))
+list.append(input("Enter your 2nd favourite movie: "))
+list.append( input("Enter your 3rd favourite movie: "))
 
 print(list)
